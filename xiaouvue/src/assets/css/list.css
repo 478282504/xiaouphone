@@ -1,0 +1,123 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.page .headcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .85rem;
+  padding: 0 .23rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.page .headcon .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .59rem;
+}
+.page .headcon .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-radius: 50%;
+  background: #101010;
+}
+.page .footbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.17rem;
+  background: #fff;
+  border-top: 1px solid #ececec;
+  padding: 0 .5rem;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.page .footbox a {
+  display: block;
+  text-align: center;
+}
+.page .footbox a img {
+  width: auto;
+  height: .53rem;
+}
+.page .footbox a p {
+  margin-top: .11rem;
+  font: 0.2rem "微软雅黑";
+  color: #878787;
+}
+.page .footbox a .shouy {
+  color: #ff6d17;
+}
+.page {
+  /* maine */
+}
+.page .headcon {
+  border-bottom: none;
+}
+.page .headcon .arrow img {
+  width: .15rem;
+  height: .32rem;
+}
+.page .headcon .logo img {
+  width: 1.5rem;
+  height: .29rem;
+}
+.page .inpu {
+  background: #fff;
+  padding-top: .5rem;
+}
+.page .inpu a {
+  width: 6.24rem;
+  height: .78rem;
+  background: #f26b11;
+  border-radius: .4rem;
+  display: block;
+  margin-left: .62rem;
+  text-align: center;
+  font: 0.26rem/0.78rem "微软雅黑";
+  color: #fff;
+}
+.page .inpu a img {
+  width: .26rem;
+  height: .27rem;
+  margin-top: .26rem;
+  margin-right: .23rem;
+}
+.page .maine {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 1.35rem;
+}
+.page .maine .fen {
+  width: 6.8rem;
+  height: 1.83rem;
+  margin-left: .23rem;
+  padding-top: .52rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+.page .maine .fen .pic img {
+  width: 1.47rem;
+  height: 1.6rem;
+  margin-left: .2rem;
+}
+.page .maine .fen .wen {
+  width: 4.8rem;
+  margin-left: .3rem;
+}
+.page .maine .fen .wen a p {
+  font: 0.26rem/0.37rem "微软雅黑";
+  color: #323232;
+}
+.page .maine .fen .wen a .many {
+  font: 0.26rem/0.53rem "微软雅黑";
+  color: #e53a3c;
+}
+.page .maine .fen .wen a span {
+  font: 0.26rem/0.41rem "Arial";
+  color: #999999;
+}
